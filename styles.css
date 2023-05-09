@@ -447,3 +447,31 @@ a.my-button2{
         grid-row: span 1;
     }
 }
+
+@media screen and (max-width: 470px) {
+    
+    .navbar .logo {
+        font-size: 30px;
+        margin-top: 7px;
+    }
+
+    .container  {
+        height: 430px;
+    }
+
+    a.my-button2{
+        display: none;
+    }
+}
+
+
+@media screen and (max-width: 370px) {
+    
+    .container h1 {
+        font-size: 45px;
+    }
+    
+    .container p {
+        font-size: 15px;
+    }
+}
