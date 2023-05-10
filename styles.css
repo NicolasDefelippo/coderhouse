@@ -474,4 +474,18 @@ a.my-button2{
     .container p {
         font-size: 15px;
     }
+
+    footer .derechos p {
+        font-size: 12px;
+    }
+    
+    footer .redes a {
+        font-size: 50px;
+    }
+
+    .separador h1 {
+        text-align: center;
+        margin: 0;
+    }
+
 }
