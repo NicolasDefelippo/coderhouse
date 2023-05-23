@@ -334,35 +334,52 @@ a.my-button2{
 
 /* -----------------------------PROCESO-------------------------------------- */
 
-.containerProceso {
-    height: 1600px;
+.texto {
+    background-color: white;
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+}
 
-    .cajaProceso {
-        margin: 15px auto;
-        width: 95%;
-        background-color: wheat;
-        height: 300px;
-        border-radius: 10px;
+.groups {
+    margin: 0 auto;
+    width: 95%;
+    height: auto;
+    padding: 10px;
 
-        .descripcionProceso {
-            width: 500px;
-            height: 300px;
-            background-image: url(img/Peronalized-Rug1.png);
-            background-size: cover;
-            float: left;
-        }
+    li {
+        position: relative;
+        list-style: none;
+        background-color: white;
+        border-radius: 5px;
+        box-shadow: 0 3px 4px 0 #0001;
+        overflow: hidden;
+        margin-bottom: 30px;
+    }
 
-        .textoProceso {
-            float: right;
-            width: 1000px;
-            height: 300px;
-            background-color: white;
-            border-radius: 10px;
+    .card {
+        overflow: hidden;
+        display: block;
 
-            p{
-                margin-left: 42px;
-                font-size: 25px;
+        .texto{
+            margin-top: 30px;
+            
+            .title {
+                margin-bottom: 30px;
             }
+        }
+    }
+
+    .image-session {
+        float: left;
+        overflow: hidden;
+        margin-right: 10px;
+
+        .image {
+            width: 280px;
+            height: 220px;
+            display: block;
+            background-size: cover;
+            background-position: center;
         }
     }
 }
@@ -520,6 +537,30 @@ a.my-button2{
     .big-stretch {
         grid-column: span 1;
         grid-row: span 1;
+    }
+}
+
+@media screen and (max-width: 560px) {
+
+    .groups .image-session {
+        float: none;
+        margin-right: 0;
+
+        .image {
+            width: 100%;
+        }
+    }
+
+    .texto {
+        text-align: center;
+
+        .title {
+            margin: 0;
+        }
+
+        p {
+            margin-bottom: 10px;
+        }
     }
 }
 
