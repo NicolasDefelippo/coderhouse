@@ -273,35 +273,63 @@ a.my-button1:active {
 }
 
 footer {
-    margin: 0 auto;
-    margin-top: 30px;
-    margin-bottom: 10px;
-    width: 95%;
-    height: 100px;
+    padding: 40px 0;
     background-color: rgba(255, 255, 255, 0.7);
     border-radius: 10px;
 
-    .derechos {
-        display: flex;
-        justify-content: center;
-        font-size: 15px;
+    .social {
+        text-align: center;
+        padding-bottom: 25px;
 
-        p {
-            margin-top: 10px;
+        a {
+            font-size: 25px;
+            color: #4b4c4d;
+            border: 1px solid #ccc;
+            width: 40px;
+            height: 40px;
+            line-height: 38px;
+            display: inline-block;
+            text-align: center;
+            border-radius: 50%;
+            margin: 0 8px;
+            opacity: 0.75;
+        }
+
+        a:hover {
+            opacity: 0.9;
+            transition: 0.3s;
         }
     }
 
-    .redes {
-        display: flex;
-        justify-content: center;
-        font-size: 45px;
+    ul {
+        margin-top: 0;
+        padding: 0;
+        font-size: 18px;
+        line-height: 1.6;
+        margin-bottom: 0;
+        text-align: center;
 
-        a {
-            color: black;
-            text-align: center;
-            font-size: 50px;
-            margin: 10px 15px 15px 15px;
+        li {
+            display: inline-block;
+            padding: 0 15px;
+
+            a {
+                color: #4b4c4d;
+                text-decoration: none;
+                opacity: 0.8;
+            }
+
+            a:hover {
+                opacity: 1;
+                transition: 0.3s;
+            }
         }
+    }
+
+    .copyright {
+        margin-top: 15px;
+        text-align: center;
+        font-size: 13px;
     }
 }
 
@@ -356,24 +384,6 @@ a.my-button2{
     grid-column: span 2;
 }
 
-/* -------------------------------PRODUCTOS------------------------------- */
-
-// .containerfiltros {
-//     width: 95%;
-//     margin: 0 auto;
-//     height: 150px;
-//     background-color: rgba(255, 255, 255, 0.20);
-//     backdrop-filter: blur(8px);
-//     border-radius: 10px;
-
-//     h1 {
-//         color: white;
-//         font-size: 25px;
-//         margin-left: 15px;
-//         margin-bottom: 25px;
-//     }
-// }
-
 /* -----------------------------PROCESO-------------------------------------- */
 
 .texto {
@@ -409,27 +419,28 @@ a.my-button2{
                 margin-bottom: 30px;
             }
         }
-    }
 
-    .image-session {
-        float: left;
-        overflow: hidden;
-        margin-right: 10px;
-
-        .image {
-            width: 280px;
-            height: 220px;
-            display: block;
-            background-size: cover;
-            background-position: center;
+        .image-session {
+            float: left;
+            overflow: hidden;
+            margin-right: 10px;
+    
+            .image {
+                width: 210px;
+                height: 220px;
+                display: block;
+                background-size: cover;
+                background-position: center;
+            }
         }
     }
+
+    
 }
 
 /* -----------------------------CONTACTOS-------------------------------------- */
 
-.image-session1 {
-
+@mixin cartitas {
     float: left;
     overflow: hidden;
     height: 200px;
@@ -441,12 +452,100 @@ a.my-button2{
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+@mixin cartitas-texto {
+    text-align: center;
+    font-size: 150px;
+    color: white;        
+    text-shadow: #000 1px 0 5px;
+}
+
+.image-session1 {
+
+    @include cartitas;
+    background-image: url(img/alfombra1.jpg);
 
     .fa-brands {
-        text-align: center;
-        font-size: 150px;
-        color: white;        
-        text-shadow: #000 1px 0 5px;
+        
+        @include cartitas-texto;
+    }
+}
+
+.image-session2 {
+
+    @include cartitas;
+    background-image: url(img/alfombra2.jpg);
+
+    .fa-brands {
+        
+        @include cartitas-texto;
+    }
+}
+
+.image-session3 {
+
+    @include cartitas;
+    background-image: url(img/alfombra3.jpg);
+
+    .fa-brands {
+        
+        @include cartitas-texto;
+    }
+}
+
+.image-session4 {
+
+    @include cartitas;
+    background-image: url(img/procesoinicial.jpg);
+
+    .fa-brands {
+        
+        @include cartitas-texto;
+    }
+}
+
+.image-session5 {
+
+    @include cartitas;
+    background-image: url(img/proceso1.jpg);
+
+    .fa-brands {
+        
+        @include cartitas-texto;
+    }
+}
+
+.image-session6 {
+
+    @include cartitas;
+    background-image: url(img/proceso2.jpg);
+
+    .fa-brands {
+        
+        @include cartitas-texto;
+    }
+}
+
+.image-session7 {
+
+    @include cartitas;
+    background-image: url(img/recorte.jpg);
+
+    .fa-brands {
+        
+        @include cartitas-texto;
+    }
+}
+
+.image-session8 {
+
+    @include cartitas;
+    background-image: url(img/proceso3.jpg);
+
+    .fa-brands {
+        
+        @include cartitas-texto;
     }
 }
 
@@ -582,10 +681,42 @@ a.my-button2{
 
 @media screen and (max-width: 560px) {
 
-    .image-session1 {
+    @mixin cartitas-media {
         float: none;
         margin-right: 0;
         width: 100%;
+    }
+
+    .image-session1 {
+        @include cartitas-media;
+    }
+
+    .image-session2 {
+        @include cartitas-media;
+    }
+
+    .image-session3 {
+        @include cartitas-media;
+    }
+
+    .image-session4 {
+        @include cartitas-media;
+    }
+
+    .image-session5 {
+        @include cartitas-media;
+    }
+
+    .image-session6 {
+        @include cartitas-media;
+    }
+
+    .image-session7 {
+        @include cartitas-media;
+    }
+
+    .image-session8 {
+        @include cartitas-media;
     }
 
     .groups .image-session {

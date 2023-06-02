@@ -246,32 +246,56 @@ a.my-button1:active {
 }
 
 footer {
-  margin: 0 auto;
-  margin-top: 30px;
-  margin-bottom: 10px;
-  width: 95%;
-  height: 100px;
+  padding: 40px 0;
   background-color: rgba(255, 255, 255, 0.7);
   border-radius: 10px;
 }
-footer .derechos {
-  display: flex;
-  justify-content: center;
-  font-size: 15px;
-}
-footer .derechos p {
-  margin-top: 10px;
-}
-footer .redes {
-  display: flex;
-  justify-content: center;
-  font-size: 45px;
-}
-footer .redes a {
-  color: black;
+footer .social {
   text-align: center;
-  font-size: 50px;
-  margin: 10px 15px 15px 15px;
+  padding-bottom: 25px;
+}
+footer .social a {
+  font-size: 25px;
+  color: #4b4c4d;
+  border: 1px solid #ccc;
+  width: 40px;
+  height: 40px;
+  line-height: 38px;
+  display: inline-block;
+  text-align: center;
+  border-radius: 50%;
+  margin: 0 8px;
+  opacity: 0.75;
+}
+footer .social a:hover {
+  opacity: 0.9;
+  transition: 0.3s;
+}
+footer ul {
+  margin-top: 0;
+  padding: 0;
+  font-size: 18px;
+  line-height: 1.6;
+  margin-bottom: 0;
+  text-align: center;
+}
+footer ul li {
+  display: inline-block;
+  padding: 0 15px;
+}
+footer ul li a {
+  color: #4b4c4d;
+  text-decoration: none;
+  opacity: 0.8;
+}
+footer ul li a:hover {
+  opacity: 1;
+  transition: 0.3s;
+}
+footer .copyright {
+  margin-top: 15px;
+  text-align: center;
+  font-size: 13px;
 }
 
 a.my-button2 {
@@ -324,7 +348,6 @@ a.my-button2 {
   grid-column: span 2;
 }
 
-/* -------------------------------PRODUCTOS------------------------------- */
 /* -----------------------------PROCESO-------------------------------------- */
 .texto {
   background-color: white;
@@ -357,13 +380,13 @@ a.my-button2 {
 .groups .card .texto .title {
   margin-bottom: 30px;
 }
-.groups .image-session {
+.groups .card .image-session {
   float: left;
   overflow: hidden;
   margin-right: 10px;
 }
-.groups .image-session .image {
-  width: 280px;
+.groups .card .image-session .image {
+  width: 210px;
   height: 220px;
   display: block;
   background-size: cover;
@@ -383,8 +406,156 @@ a.my-button2 {
   display: flex;
   justify-content: center;
   align-items: center;
+  background-image: url(img/alfombra1.jpg);
 }
 .image-session1 .fa-brands {
+  text-align: center;
+  font-size: 150px;
+  color: white;
+  text-shadow: #000 1px 0 5px;
+}
+
+.image-session2 {
+  float: left;
+  overflow: hidden;
+  height: 200px;
+  width: 300px;
+  margin-right: 15px;
+  background-image: url(img/alfombra1.jpg);
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(img/alfombra2.jpg);
+}
+.image-session2 .fa-brands {
+  text-align: center;
+  font-size: 150px;
+  color: white;
+  text-shadow: #000 1px 0 5px;
+}
+
+.image-session3 {
+  float: left;
+  overflow: hidden;
+  height: 200px;
+  width: 300px;
+  margin-right: 15px;
+  background-image: url(img/alfombra1.jpg);
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(img/alfombra3.jpg);
+}
+.image-session3 .fa-brands {
+  text-align: center;
+  font-size: 150px;
+  color: white;
+  text-shadow: #000 1px 0 5px;
+}
+
+.image-session4 {
+  float: left;
+  overflow: hidden;
+  height: 200px;
+  width: 300px;
+  margin-right: 15px;
+  background-image: url(img/alfombra1.jpg);
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(img/procesoinicial.jpg);
+}
+.image-session4 .fa-brands {
+  text-align: center;
+  font-size: 150px;
+  color: white;
+  text-shadow: #000 1px 0 5px;
+}
+
+.image-session5 {
+  float: left;
+  overflow: hidden;
+  height: 200px;
+  width: 300px;
+  margin-right: 15px;
+  background-image: url(img/alfombra1.jpg);
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(img/proceso1.jpg);
+}
+.image-session5 .fa-brands {
+  text-align: center;
+  font-size: 150px;
+  color: white;
+  text-shadow: #000 1px 0 5px;
+}
+
+.image-session6 {
+  float: left;
+  overflow: hidden;
+  height: 200px;
+  width: 300px;
+  margin-right: 15px;
+  background-image: url(img/alfombra1.jpg);
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(img/proceso2.jpg);
+}
+.image-session6 .fa-brands {
+  text-align: center;
+  font-size: 150px;
+  color: white;
+  text-shadow: #000 1px 0 5px;
+}
+
+.image-session7 {
+  float: left;
+  overflow: hidden;
+  height: 200px;
+  width: 300px;
+  margin-right: 15px;
+  background-image: url(img/alfombra1.jpg);
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(img/recorte.jpg);
+}
+.image-session7 .fa-brands {
+  text-align: center;
+  font-size: 150px;
+  color: white;
+  text-shadow: #000 1px 0 5px;
+}
+
+.image-session8 {
+  float: left;
+  overflow: hidden;
+  height: 200px;
+  width: 300px;
+  margin-right: 15px;
+  background-image: url(img/alfombra1.jpg);
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(img/proceso3.jpg);
+}
+.image-session8 .fa-brands {
   text-align: center;
   font-size: 150px;
   color: white;
@@ -500,6 +671,41 @@ a.my-button2 {
 }
 @media screen and (max-width: 560px) {
   .image-session1 {
+    float: none;
+    margin-right: 0;
+    width: 100%;
+  }
+  .image-session2 {
+    float: none;
+    margin-right: 0;
+    width: 100%;
+  }
+  .image-session3 {
+    float: none;
+    margin-right: 0;
+    width: 100%;
+  }
+  .image-session4 {
+    float: none;
+    margin-right: 0;
+    width: 100%;
+  }
+  .image-session5 {
+    float: none;
+    margin-right: 0;
+    width: 100%;
+  }
+  .image-session6 {
+    float: none;
+    margin-right: 0;
+    width: 100%;
+  }
+  .image-session7 {
+    float: none;
+    margin-right: 0;
+    width: 100%;
+  }
+  .image-session8 {
     float: none;
     margin-right: 0;
     width: 100%;
