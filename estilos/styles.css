@@ -321,7 +321,7 @@ a.my-button2 {
 }
 
 .galeria {
-  margin: 0 auto;
+  margin: 0 auto 30px;
   display: grid;
   grid-gap: 10px;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
@@ -400,13 +400,13 @@ a.my-button2 {
   height: 200px;
   width: 300px;
   margin-right: 15px;
-  background-image: url(img/alfombra1.jpg);
+  background-image: url(../img/alfombra1.jpg);
   background-size: cover;
   background-position: center;
   display: flex;
   justify-content: center;
   align-items: center;
-  background-image: url(img/alfombra1.jpg);
+  background-image: url(../img/alfombra1.jpg);
 }
 .image-session1 .fa-brands {
   text-align: center;
@@ -421,13 +421,13 @@ a.my-button2 {
   height: 200px;
   width: 300px;
   margin-right: 15px;
-  background-image: url(img/alfombra1.jpg);
+  background-image: url(../img/alfombra1.jpg);
   background-size: cover;
   background-position: center;
   display: flex;
   justify-content: center;
   align-items: center;
-  background-image: url(img/alfombra2.jpg);
+  background-image: url(../img/alfombra2.jpg);
 }
 .image-session2 .fa-brands {
   text-align: center;
@@ -442,13 +442,13 @@ a.my-button2 {
   height: 200px;
   width: 300px;
   margin-right: 15px;
-  background-image: url(img/alfombra1.jpg);
+  background-image: url(../img/alfombra1.jpg);
   background-size: cover;
   background-position: center;
   display: flex;
   justify-content: center;
   align-items: center;
-  background-image: url(img/alfombra3.jpg);
+  background-image: url(../img/alfombra3.jpg);
 }
 .image-session3 .fa-brands {
   text-align: center;
@@ -463,13 +463,13 @@ a.my-button2 {
   height: 200px;
   width: 300px;
   margin-right: 15px;
-  background-image: url(img/alfombra1.jpg);
+  background-image: url(../img/alfombra1.jpg);
   background-size: cover;
   background-position: center;
   display: flex;
   justify-content: center;
   align-items: center;
-  background-image: url(img/procesoinicial.jpg);
+  background-image: url(../img/procesoinicial.jpg);
 }
 .image-session4 .fa-brands {
   text-align: center;
@@ -484,13 +484,13 @@ a.my-button2 {
   height: 200px;
   width: 300px;
   margin-right: 15px;
-  background-image: url(img/alfombra1.jpg);
+  background-image: url(../img/alfombra1.jpg);
   background-size: cover;
   background-position: center;
   display: flex;
   justify-content: center;
   align-items: center;
-  background-image: url(img/proceso1.jpg);
+  background-image: url(../img/proceso1.jpg);
 }
 .image-session5 .fa-brands {
   text-align: center;
@@ -505,13 +505,13 @@ a.my-button2 {
   height: 200px;
   width: 300px;
   margin-right: 15px;
-  background-image: url(img/alfombra1.jpg);
+  background-image: url(../img/alfombra1.jpg);
   background-size: cover;
   background-position: center;
   display: flex;
   justify-content: center;
   align-items: center;
-  background-image: url(img/proceso2.jpg);
+  background-image: url(../img/proceso2.jpg);
 }
 .image-session6 .fa-brands {
   text-align: center;
@@ -526,13 +526,13 @@ a.my-button2 {
   height: 200px;
   width: 300px;
   margin-right: 15px;
-  background-image: url(img/alfombra1.jpg);
+  background-image: url(../img/alfombra1.jpg);
   background-size: cover;
   background-position: center;
   display: flex;
   justify-content: center;
   align-items: center;
-  background-image: url(img/recorte.jpg);
+  background-image: url(../img/recorte.jpg);
 }
 .image-session7 .fa-brands {
   text-align: center;
@@ -547,13 +547,13 @@ a.my-button2 {
   height: 200px;
   width: 300px;
   margin-right: 15px;
-  background-image: url(img/alfombra1.jpg);
+  background-image: url(../img/alfombra1.jpg);
   background-size: cover;
   background-position: center;
   display: flex;
   justify-content: center;
   align-items: center;
-  background-image: url(img/proceso3.jpg);
+  background-image: url(../img/proceso3.jpg);
 }
 .image-session8 .fa-brands {
   text-align: center;

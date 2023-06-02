@@ -357,7 +357,7 @@ a.my-button2{
 }
 
 .galeria {
-    margin: 0 auto;
+    margin: 0 auto 30px;
     display: grid;
     grid-gap: 10px;
     grid-template-columns: repeat(auto-fit,minmax(250px, 1fr));
@@ -446,7 +446,7 @@ a.my-button2{
     height: 200px;
     width: 300px;
     margin-right: 15px;
-    background-image: url(img/alfombra1.jpg);
+    background-image: url(../img/alfombra1.jpg);
     background-size: cover;
     background-position: center;
     display: flex;
@@ -464,7 +464,7 @@ a.my-button2{
 .image-session1 {
 
     @include cartitas;
-    background-image: url(img/alfombra1.jpg);
+    background-image: url(../img/alfombra1.jpg);
 
     .fa-brands {
         
@@ -475,7 +475,7 @@ a.my-button2{
 .image-session2 {
 
     @include cartitas;
-    background-image: url(img/alfombra2.jpg);
+    background-image: url(../img/alfombra2.jpg);
 
     .fa-brands {
         
@@ -486,7 +486,7 @@ a.my-button2{
 .image-session3 {
 
     @include cartitas;
-    background-image: url(img/alfombra3.jpg);
+    background-image: url(../img/alfombra3.jpg);
 
     .fa-brands {
         
@@ -497,7 +497,7 @@ a.my-button2{
 .image-session4 {
 
     @include cartitas;
-    background-image: url(img/procesoinicial.jpg);
+    background-image: url(../img/procesoinicial.jpg);
 
     .fa-brands {
         
@@ -508,7 +508,7 @@ a.my-button2{
 .image-session5 {
 
     @include cartitas;
-    background-image: url(img/proceso1.jpg);
+    background-image: url(../img/proceso1.jpg);
 
     .fa-brands {
         
@@ -519,7 +519,7 @@ a.my-button2{
 .image-session6 {
 
     @include cartitas;
-    background-image: url(img/proceso2.jpg);
+    background-image: url(../img/proceso2.jpg);
 
     .fa-brands {
         
@@ -530,7 +530,7 @@ a.my-button2{
 .image-session7 {
 
     @include cartitas;
-    background-image: url(img/recorte.jpg);
+    background-image: url(../img/recorte.jpg);
 
     .fa-brands {
         
@@ -541,7 +541,7 @@ a.my-button2{
 .image-session8 {
 
     @include cartitas;
-    background-image: url(img/proceso3.jpg);
+    background-image: url(../img/proceso3.jpg);
 
     .fa-brands {
         
