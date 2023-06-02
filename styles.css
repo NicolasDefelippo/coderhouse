@@ -141,7 +141,7 @@ a.my-button:active {
   position: relative;
   height: 330px;
   background-color: #fffef7;
-  box-shadow: 0 30px 30px rgba(0, 0, 0, 0.4);
+  box-shadow: 0 3px 4px 0 rgba(0, 0, 0, 0.0666666667);
   overflow: hidden;
   border-radius: 10px;
   text-align: center;
@@ -167,6 +167,43 @@ a.my-button:active {
   position: relative;
 }
 .container1 .box a {
+  margin-top: 20px;
+}
+
+.container2 {
+  width: 95%;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(290px, 1fr));
+  grid-gap: 20px;
+  padding: 20px;
+}
+.container2 .box1 {
+  position: relative;
+  height: 330px;
+  box-shadow: 0 3px 4px 0 rgba(0, 0, 0, 0.0666666667);
+  overflow: hidden;
+  border-radius: 10px;
+  text-align: center;
+}
+.container2 .box1 .imgbox1 {
+  width: 100%;
+  height: 50%;
+}
+.container2 .box1 h1 {
+  margin-top: 15px;
+  font-size: 16px;
+  position: relative;
+  color: white;
+  font-size: 35px;
+}
+.container2 .box1 p {
+  margin-top: 15px;
+  font-size: 14px;
+  position: relative;
+  color: white;
+  font-size: 15px;
+}
+.container2 .box1 a {
   margin-top: 20px;
 }
 
@@ -288,22 +325,6 @@ a.my-button2 {
 }
 
 /* -------------------------------PRODUCTOS------------------------------- */
-.containerfiltros {
-  width: 95%;
-  margin: 0 auto;
-  height: 150px;
-  background-color: rgba(255, 255, 255, 0.2);
-  -webkit-backdrop-filter: blur(8px);
-          backdrop-filter: blur(8px);
-  border-radius: 10px;
-}
-.containerfiltros h1 {
-  color: white;
-  font-size: 25px;
-  margin-left: 15px;
-  margin-bottom: 25px;
-}
-
 /* -----------------------------PROCESO-------------------------------------- */
 .texto {
   background-color: white;
@@ -350,29 +371,29 @@ a.my-button2 {
 }
 
 /* -----------------------------CONTACTOS-------------------------------------- */
-.containerContactos {
-  height: 780px;
-}
-.containerContactos p {
-  font-size: 25px;
-  text-align: center;
-}
-.containerContactos .contactanos {
+.image-session1 {
+  float: left;
+  overflow: hidden;
+  height: 200px;
+  width: 300px;
+  margin-right: 15px;
+  background-image: url(/img/alfombra1.jpg);
+  background-size: cover;
+  background-position: center;
   display: flex;
   justify-content: center;
+  align-items: center;
 }
-.containerContactos .contactanos a {
-  font-size: 100px;
-  color: black;
+.image-session1 .fa-brands {
+  text-align: center;
+  font-size: 150px;
+  color: white;
   text-shadow: #000 1px 0 5px;
-}
-.containerContactos .contactanos .fa-whatsapp {
-  margin-left: 100px;
-  margin-right: 100px;
 }
 
 .mapa {
   text-align: center;
+  margin-bottom: 30px;
 }
 
 @media screen and (max-width: 1560px) {
@@ -478,6 +499,11 @@ a.my-button2 {
   }
 }
 @media screen and (max-width: 560px) {
+  .image-session1 {
+    float: none;
+    margin-right: 0;
+    width: 100%;
+  }
   .groups .image-session {
     float: none;
     margin-right: 0;
